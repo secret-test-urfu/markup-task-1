@@ -2,4 +2,4 @@
 
 exports.isStar = true;
 
-exports.sum = a => a;
+exports.sum = (a, b) => Number(a) + Number(b);
