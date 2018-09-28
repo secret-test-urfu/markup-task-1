@@ -2,4 +2,6 @@
 
 exports.isStar = true;
 
-exports.sum = (a, b) => Number(a) + Number(b);
+exports.sum = (...numbers) => numbers
+    .map(Number)
+    .reduce((a, b) => a + b, 0);
